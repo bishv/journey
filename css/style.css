@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background:grey url("../img/fonn.png") no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.menu{
+    background-color:  rgba(0, 0, 0, 0.41);
+    width: auto;
+    height: 54px;
+    position: relative;
+}
+.menu_name{
+    margin-left: 81px;
+    line-height: 54px;
+    font-family: "Verdana",Arial;
+    color: white;
+}
+.menu_name:hover{
+    color: #3cb878;
+}
+.menu_right{
+    border-left: 1px solid grey;
+    float: right;
+    margin: 17px 0;
+    margin-right: 75px;
+}
+.menu_right_welcome{
+    font-family: Verdana;
+    color:  #ffffff;
+    font-size: 14px;
+    margin-left: 24px;
+}
+.menu_right_or{
+    font-family: Verdana;
+    color:  #ffffff;
+    font-size: 14px;
+}
+.menu_right_logsign{
+    font-family: Verdana;
+    color:  #3cb878;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+}
+.menu_right_logsign:hover{
+    text-decoration: underline;
+}
+.icons{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+li{
+    background: url(../img/icons.png) no-repeat;
+    display: inline-block;
+    margin-top: 16px;
+    margin-right: 28px;
+    cursor: pointer;
+    height: 26px;
+    width: 26px;
+    cursor: pointer;
+}
+
+
+.icon_1:hover{
+    background-position: -24px 0;
+}
+.icon_2{
+    background-position: -51px 0;
+}
+.icon_2:hover{
+    background-position: -79px 0;
+
+}.icon_3{
+     background-position: -108px 0;
+ }
+.icon_3:hover{
+    background-position: -133px 0;
+}
+
+.container_form{
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.form{
+    box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.52);
+    width: 322px;
+    box-sizing: content-box;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 62px;
+    padding-right: 60px;
+    padding-top: 29px;
+    padding-bottom: 32px;
+    overflow: auto;
+}
+.header{
+    position: relative;
+}
+
+.header_text{
+    position: relative;
+    font-family: Verdana;
+    color:  #434343;
+    font-size: 20px;
+    font-weight:500;
+    line-height: 19px;
+    display: inline-flex;
+    text-align: left;
+}
+.header_login{
+    display: block;
+    font-family: Verdana;
+    color:  #3cb878;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    float: right;
+}
+.header_login:hover{
+    text-decoration: underline;
+}
+.fbg{
+    height: 46px;
+    margin: 25px 0;
+    display: block;
+}
+.facebook{
+    width: 157px;
+    height: 46px;
+    border-radius: 3px;
+    background-color:  #305db8;
+    margin-right: 8px;
+    float: left;
+    cursor: pointer;
+}
+.facebook:hover{
+    background-color:  #264b96;
+}
+.fb{
+    width: 45px;
+    margin: 9px 0;
+    text-align: center;
+    display: inline-block;
+    border-right: 2px solid #2952a6;
+    margin-right: 14px;
+}
+.fb_icon{
+    font-family: Verdana;
+    color:  #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+
+}
+.fb_text{
+    font-family: Verdana;
+    color:  #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+}
+.google{
+    border-radius: 3px;
+    background-color:  #df4a32;
+    width: 157px;
+    height: 46px;
+    float: left;
+    display: inline-block;
+    cursor: pointer;
+}
+.google:hover  {
+    background-color: #c3412c;
+
+}
+.google_icon{
+    width: 45px;
+    margin: 9px 0;
+    text-align: center;
+    display: inline-block;
+    border-right: 2px solid #dd472e;
+    margin-right: 24px;
+    color: white;
+}
+
+.G{
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: 600;
+    color:  #ffffff;
+    line-height: 28px;
+}
+.plus{
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: 400;
+    color:  #ffffff;
+    line-height: 28px;
+}
+.google_text{
+    font-family: Verdana;
+    color:  #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+}
+.or{
+    display: block;
+    margin-bottom: 25px;
+    height: 18px;
+}
+.line_l{
+    height: 10px;
+    width: 135px;
+    border-bottom: 1px solid #e7e7e7;
+    float: left;
+}
+.line_r{
+    height: 10px;
+    width: 135px;
+    border-bottom: 1px solid #e7e7e7;
+    float: left;
+}
+.text_or{
+    font-family: Verdana;
+    color:  #848484;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    float: left;
+    margin: 0 17px;
+}
+
+.input_form{
+    margin-bottom: 19px;
+}
+.input[type="text"]{
+    height: 46px;
+    width: 306px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #eaeaea;
+    border-radius: 3px;
+}
+.input[type="text"]>a{
+    margin-left: 10px;
+}
+.input[type=text]:focus {
+    height: 48px;
+    width: 306px;
+    outline:none;
+    background-color:  #ffffff;
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.21);
+    border: none;
+}
+.checkboxma{
+    display: block;
+    position: relative;
+}
+.terms{
+    font-family: Verdana;
+    color:  #3cb878;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+}
+.terms:hover{
+    text-decoration: underline;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 28px;
+    cursor: pointer;
+    font-family: Verdana;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 19px;
+    width: 19px;
+    line-height: 21px;
+    background-color: #eee;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.container .checkmark:after {
+    border: solid #39b877;
+    left: 4px;
+    width: 6px;
+    height: 11px;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+
+button{
+    width: 322px;
+    height: 46px;
+    background-color:  #3cb878;
+    font-family: Verdana;
+    color:  #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 46px;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+}
+
+button:hover{
+    background-color: #329a65;
+}
